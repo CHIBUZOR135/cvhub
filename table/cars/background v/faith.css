@@ -1,0 +1,281 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: rgb(245,245,245);
+    font-size: 0.875rem;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+.gate_top .gate_top_content{
+width: 100%;
+display: flex;
+align-items: center;
+border: 5px solid purple;
+height: max-content;
+padding: 10px 0;
+}
+.gate_top_content .items_first{
+flex: 1;
+display: flex;
+align-items: center;
+margin-left: 20px;
+column-gap: 10px;
+}
+.gate_top_content .items_first a{
+    color: orange;
+    text-decoration: none;
+}
+
+.gate_top_content.items_last{
+    flex: 2.5;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 10px;
+}
+.gate_top_content .items_first a:hover{
+    text-decoration: underline;
+}
+.navbar_buttom{
+    border: 3px solid orange;
+     display: flex;
+
+    padding: 15px 40px;
+    height: 100px;
+    width: 100%;
+   align-content: center;
+    column-gap: 15px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+ 
+    } 
+    .navbar_buttom .lod a span{
+        font-size: 40px;
+        text-transform: uppercase;
+        color: black;
+        font-weight: bolder;
+        font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+    }
+    .navbar_buttom form .content{
+    flex: 1;
+    display: flex;
+    padding: 8px;
+    border-radius: 7px;
+    column-gap: 5px;
+    height: 50px;
+}
+.navbar_buttom form{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    
+}
+.glass{
+    margin-right:450px;
+    text-transform:uppercase;
+ }
+ .glass a{
+    color: gray;
+    text-decoration: none;
+ }
+ .glass a:hover{
+    color: orange;
+ }
+   .content .icon{
+    position: relative;
+    display: flex;
+    flex: 4;
+  flex-direction: row;
+  column-gap: 0px;
+ margin-top: -60px;
+padding: 5px;
+    
+  
+  margin-left:250px;
+
+
+}
+.content .icon img{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.content .icon input{
+    width: 400px;
+    height: 50px;
+    margin-right: 15px;
+    margin-bottom: 90px;
+    border-radius: 7px;
+
+
+}
+
+ .content .class{
+ border-radius: 5px;
+    height: 50px;
+width: 90px;
+margin-top: -59px;
+border-color: white;
+  text-transform: uppercase;
+    color: white;
+    background-color:orange;
+}
+.content .class:hover{
+    cursor: pointer;
+}
+.navbar_buttom_right{
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+.navbar_buttom_right a span:hover{
+color: orange;
+}
+.navbar_buttom a{
+    display: flex;
+    align-items: center;
+     color: grey;
+    text-transform: capitalize;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.cart span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 15px;
+    height: 15px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246,139,30)
+}
+.was{
+    color: gray;
+    margin-left: 20px;
+}
+.was a{
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+.go{
+   position: relative;
+   border: 10px solid crimson;
+ width: 950px;
+   height: max-content;
+ display: flex;
+ flex-direction: row;
+}
+.go .up{
+    height: 350px;
+    margin-top:0;
+}
+.go .up:hover{
+    cursor: zoom-in;
+}
+.go h1{
+margin-top: 10px;
+    font-size: 1.25rem
+}
+.go img{
+    height: 20px;
+    margin-right:10px;
+    margin-top:10px;
+
+}
+.go img:hover{
+    cursor: pointer;
+}
+.nonso{
+    height: 15px;
+    margin-top:-270px;
+    margin-left:370px;
+    display: flex;
+    flex-direction: row;
+    color:grey;
+}
+.but{
+    display: flex;
+    flex-direction: column;
+}
+.but button{
+    width: 90px;
+    height: 20px;
+    background-color: orange;
+    margin-top: 10px;
+    margin-left: 370px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.door{
+    margin-top: 250px;
+     display: flex;
+     flex-direction: row;
+    background-color:black;
+     justify-content:space-between;
+    
+}
+
+
+
+footer{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+ color: white;
+ /* align-items: center; */
+ justify-content: space-between;
+ width: 100%;
+ 
+} 
+.loop{
+    background:black ;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-decoration: none;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+  .door .car{
+    font-size: 2rem;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+ }
